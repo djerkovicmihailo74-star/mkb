@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "multikeybinds",
+  "version": "${version}",
+  "name": "Multi Keybinds",
+  "description": "Bind extra keys or mouse buttons to any action. Open it with the Multi Keys button on the Controls screen.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.multikeybinds.MultiKeybindsClient"] },
+  "mixins": ["multikeybinds.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

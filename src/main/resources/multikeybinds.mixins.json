@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.multikeybinds.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["KeyBindingAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}
